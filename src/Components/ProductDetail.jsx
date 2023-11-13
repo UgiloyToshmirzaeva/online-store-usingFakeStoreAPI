@@ -13,14 +13,16 @@ const ProductDetail = () => {
   }, [id]);
 
   return (
-    <div className='product-detail'>
+    <div className='productdetail'>
       {product ? (
         <div>
+          <img src={product.image} alt={product.title} />
+          <div className="details">
           <h2>{product.title}</h2>
           <p>Price: 💲{product.price}</p>
-          <img src={product.image} alt={product.title} />
           <p>Description: {product.description}</p>
           <h3>Rating: ⭐{product.rating.rate}</h3>
+          </div>
         </div>
       ) : (
         <p>Loading...</p>

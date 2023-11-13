@@ -3,7 +3,8 @@ import ProductList from '../Components/ProductList'
 
 const Shop = () => {
     return(
-        <div className="shop">
+        <div style={{backgroundColor: 'aliceblue'}} className="shop">
+            <h1>Shop</h1>
             <ProductList/>
         </div>
     )
