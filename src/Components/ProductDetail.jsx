@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import './ProductDetail.css'
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -16,9 +17,10 @@ const ProductDetail = () => {
       {product ? (
         <div>
           <h2>{product.title}</h2>
-          <p>Price: ${product.price}</p>
+          <p>Price: 💲{product.price}</p>
           <img src={product.image} alt={product.title} />
-          <p>{product.description}</p>
+          <p>Description: {product.description}</p>
+          <h3>Rating: ⭐{product.rating.rate}</h3>
         </div>
       ) : (
         <p>Loading...</p>
