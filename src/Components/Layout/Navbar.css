@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7% 4%;
+  background-color: #c1c5ed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: aqua;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.logo mark{
+  font-size: 170%;
+  background-color: transparent;
+}
+
+.cart {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

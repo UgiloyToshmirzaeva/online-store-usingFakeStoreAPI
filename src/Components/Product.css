@@ -1,0 +1,37 @@
+.products{
+    background-color: aliceblue;
+    padding-top: 3rem;
+}
+
+.products h1{
+    font-size: 230%;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 1rem;
+    padding: 4%;
+}
+li{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+li .title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+}
+li img{
+    width: 90%;
+    height: 250px;
+}
+li .rating{
+    font-size: medium;
+}

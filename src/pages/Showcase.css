@@ -1,0 +1,34 @@
+.showcase {
+    position: relative;
+    height: 90vh;
+    background: url("https://www.vecteezy.com/video/12181357-fast-delivery-by-scooter-and-van-and-plane-on-mobile-e-commerce-concept-online-order-with-shopping-cart-and-many-box-on-pink-background-3d-animation-loop");
+    background-size: cover;
+  }
+  .showcase h2 {
+    font-size: 2rem;
+    color: brown;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .showcase h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    animation: title-anim 4s ease-in;
+    margin-bottom: 1rem;
+  }
+  @keyframes title-anim {
+    0% { width: 20%;}
+    100% { width: 100%}
+  }
+  
+  .showcase p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .showcase img {
+    width: 240px;
+    height: 250px;
+  }
+  
+ 
