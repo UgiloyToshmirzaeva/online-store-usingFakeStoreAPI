@@ -19,7 +19,7 @@ const Showcase = () => {
 
     fetchRandomProduct();
 
-    const interval = setInterval(fetchRandomProduct, 86400000); // 24 hours in milliseconds
+    const interval = setInterval(fetchRandomProduct, 86400000); //24h
 
     return () => clearInterval(interval);
   }, []);
